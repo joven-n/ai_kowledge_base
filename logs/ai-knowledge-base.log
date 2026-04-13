@@ -1,0 +1,1 @@
+2026-04-13T10:40:50.987+08:00  WARN 27104 --- [ai-knowledge-base] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12h36m50s248ms805µs800ns).

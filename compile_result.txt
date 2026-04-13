@@ -1,0 +1,187 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.aiknowledge:ai-knowledge-base >------------------
+[INFO] Building AI Knowledge Base RAG System 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from maven-public: http://localhost:8081/repository/maven-public/com/nimbusds/lang-tag/maven-metadata.xml
+[WARNING] Could not transfer metadata com.nimbusds:lang-tag/maven-metadata.xml from/to maven-public (http://localhost:8081/repository/maven-public/): Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+Downloading from maven-public: http://localhost:8081/repository/maven-public/com/nimbusds/nimbus-jose-jwt/maven-metadata.xml
+[WARNING] Could not transfer metadata com.nimbusds:nimbus-jose-jwt/maven-metadata.xml from/to maven-public (http://localhost:8081/repository/maven-public/): Connect to localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ ai-knowledge-base ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ ai-knowledge-base ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 60 source files with javac [debug release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[44,16] �ı���δ�պ�
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[49,13] �Ƿ��ַ�: '\uff1a'
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[52,30] δ�������ַ�������
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[56,12] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[58,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[60,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[62,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[65,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[67,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[70,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[71,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[72,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[73,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[74,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[75,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[76,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[77,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[78,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[79,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[80,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[85,17] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[86,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[89,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[91,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[93,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[94,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[103,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[104,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[106,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[110,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[112,5] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[117,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[118,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[119,21] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[120,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[121,5] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[43,16] �ı���δ�պ�
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[48,13] �Ƿ��ַ�: '\uff1a'
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[51,32] δ�������ַ�������
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[55,12] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[57,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[59,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[61,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[64,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[66,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[69,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[70,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[71,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[72,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[73,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[74,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[75,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[76,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[77,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[78,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[79,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[81,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[84,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[87,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[90,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[92,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[94,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[95,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[104,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[105,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[107,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[111,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[113,5] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[118,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[119,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[120,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[121,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[122,21] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[123,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[124,5] ��Ҫ class��interface��enum �� record
+[INFO] 75 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.525 s
+[INFO] Finished at: 2026-04-12T16:49:08+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project ai-knowledge-base: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[44,16] �ı���δ�պ�
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[49,13] �Ƿ��ַ�: '\uff1a'
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[52,30] δ�������ַ�������
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[56,12] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[58,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[60,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[62,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[65,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[67,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[70,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[71,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[72,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[73,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[74,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[75,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[76,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[77,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[78,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[79,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[80,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[85,17] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[86,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[89,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[91,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[93,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[94,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[103,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[104,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[106,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[110,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[112,5] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[117,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[118,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[119,21] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[120,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/product/ProductQueryByIdTool.java:[121,5] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[43,16] �ı���δ�պ�
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[48,13] �Ƿ��ַ�: '\uff1a'
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[51,32] δ�������ַ�������
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[55,12] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[57,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[59,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[61,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[64,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[66,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[69,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[70,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[71,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[72,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[73,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[74,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[75,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[76,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[77,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[78,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[79,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[81,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[84,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[87,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[90,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[92,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[94,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[95,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[104,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[105,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[107,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[111,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[113,5] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[118,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[119,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[120,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[121,13] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[122,21] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[123,9] ��Ҫ class��interface��enum �� record
+[ERROR] /C:/Users/86130/WorkBuddy/Claw/ai-knowledge-base/src/main/java/com/aiknowledge/agent/tool/order/OrderQueryByIdTool.java:[124,5] ��Ҫ class��interface��enum �� record
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
