@@ -1,0 +1,17 @@
+# Maven / Gradle
+target/
+build/
+*.class
+
+# 敏感配置
+application-local.yml
+application-prod.yml
+
+# IDE 文件
+.idea/
+*.iml
+.vscode/
+
+# 系统文件
+.DS_Store
+Thumbs.db
