@@ -1,1 +1,59 @@
 2026-04-13T10:40:50.987+08:00  WARN 27104 --- [ai-knowledge-base] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12h36m50s248ms805µs800ns).
+2026-04-13T10:49:19.141+08:00  INFO 27104 --- [ai-knowledge-base] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-13T10:49:19.232+08:00  INFO 27104 --- [ai-knowledge-base] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-04-13T10:49:19.278+08:00  INFO 27104 --- [ai-knowledge-base] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-04-13T10:49:34.089+08:00  INFO 21128 --- [ai-knowledge-base] [main] c.a.AiKnowledgeBaseApplication           : Starting AiKnowledgeBaseApplication using Java 17.0.10 with PID 21128 (C:\Users\86130\WorkBuddy\Claw\ai-knowledge-base\target\classes started by 86130 in C:\Users\86130\WorkBuddy\Claw\ai-knowledge-base)
+2026-04-13T10:49:34.092+08:00 DEBUG 21128 --- [ai-knowledge-base] [main] c.a.AiKnowledgeBaseApplication           : Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-04-13T10:49:34.092+08:00  INFO 21128 --- [ai-knowledge-base] [main] c.a.AiKnowledgeBaseApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-04-13T10:49:35.743+08:00  INFO 21128 --- [ai-knowledge-base] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-13T10:49:35.962+08:00  INFO 21128 --- [ai-knowledge-base] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 207 ms. Found 2 JPA repository interfaces.
+2026-04-13T10:49:37.229+08:00  INFO 21128 --- [ai-knowledge-base] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-04-13T10:49:37.244+08:00  INFO 21128 --- [ai-knowledge-base] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-13T10:49:37.244+08:00  INFO 21128 --- [ai-knowledge-base] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-04-13T10:49:37.478+08:00  INFO 21128 --- [ai-knowledge-base] [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2026-04-13T10:49:37.478+08:00  INFO 21128 --- [ai-knowledge-base] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3298 ms
+2026-04-13T10:49:37.984+08:00  INFO 21128 --- [ai-knowledge-base] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-13T10:49:38.061+08:00  INFO 21128 --- [ai-knowledge-base] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2026-04-13T10:49:38.107+08:00  INFO 21128 --- [ai-knowledge-base] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-04-13T10:49:38.415+08:00  INFO 21128 --- [ai-knowledge-base] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-13T10:49:38.458+08:00  INFO 21128 --- [ai-knowledge-base] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-04-13T10:49:38.737+08:00  INFO 21128 --- [ai-knowledge-base] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45017263
+2026-04-13T10:49:38.739+08:00  INFO 21128 --- [ai-knowledge-base] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-04-13T10:49:38.823+08:00  WARN 21128 --- [ai-knowledge-base] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-13T10:49:39.831+08:00  INFO 21128 --- [ai-knowledge-base] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-13T10:49:39.954+08:00  INFO 21128 --- [ai-knowledge-base] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-13T10:49:40.596+08:00  INFO 21128 --- [ai-knowledge-base] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-13T10:49:41.257+08:00  INFO 21128 --- [ai-knowledge-base] [main] com.aiknowledge.agent.AgentExecutor      : Agent工具注册完成: [system_info, order_status_stats, order_query_by_id, order_search, product_low_stock, product_query_by_id, product_search, weather_query]
+2026-04-13T10:49:42.473+08:00  INFO 21128 --- [ai-knowledge-base] [main] com.aiknowledge.rag.MilvusVectorStore    : Milvus Collection已存在: knowledge_base
+2026-04-13T10:49:42.473+08:00  INFO 21128 --- [ai-knowledge-base] [main] com.aiknowledge.rag.MilvusVectorStore    : Milvus连接成功: 82.156.119.118:19530, collection=knowledge_base
+2026-04-13T10:49:42.500+08:00  INFO 21128 --- [ai-knowledge-base] [main] c.a.s.impl.ConversationServiceImpl       : 会话管理服务初始化完成: sessionTtlMinutes=30, maxHistoryTurns=10
+2026-04-13T10:49:42.564+08:00  INFO 21128 --- [ai-knowledge-base] [main] com.aiknowledge.config.CacheConfig       : 初始化内存CacheManager（开发模式）
+2026-04-13T10:49:42.716+08:00  WARN 21128 --- [ai-knowledge-base] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-13T10:49:44.084+08:00  INFO 21128 --- [ai-knowledge-base] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2026-04-13T10:49:44.220+08:00  INFO 21128 --- [ai-knowledge-base] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api'
+2026-04-13T10:49:44.233+08:00  INFO 21128 --- [ai-knowledge-base] [main] c.a.AiKnowledgeBaseApplication           : Started AiKnowledgeBaseApplication in 10.977 seconds (process running for 12.389)
+2026-04-13T10:49:44.567+08:00  INFO 21128 --- [ai-knowledge-base] [RMI TCP Connection(3)-192.168.137.1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-13T10:49:44.567+08:00  INFO 21128 --- [ai-knowledge-base] [RMI TCP Connection(3)-192.168.137.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-13T10:49:44.569+08:00  INFO 21128 --- [ai-knowledge-base] [RMI TCP Connection(3)-192.168.137.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-04-13T10:51:19.488+08:00  INFO 21128 --- [ai-knowledge-base] [http-nio-8080-exec-1] com.aiknowledge.config.LoggingAspect     : → [KnowledgeController.getStats] 请求开始
+2026-04-13T10:51:19.489+08:00  INFO 21128 --- [ai-knowledge-base] [http-nio-8080-exec-2] com.aiknowledge.config.LoggingAspect     : → [KnowledgeController.listDocuments] 请求开始
+2026-04-13T10:51:19.493+08:00  INFO 21128 --- [ai-knowledge-base] [http-nio-8080-exec-2] com.aiknowledge.config.LoggingAspect     : ← [KnowledgeController.listDocuments] 响应完成，耗时: 5ms
+2026-04-13T10:51:19.563+08:00  INFO 21128 --- [ai-knowledge-base] [http-nio-8080-exec-1] com.aiknowledge.config.LoggingAspect     : ← [KnowledgeController.getStats] 响应完成，耗时: 75ms
+2026-04-13T10:52:41.798+08:00  INFO 21128 --- [ai-knowledge-base] [http-nio-8080-exec-4] com.aiknowledge.config.LoggingAspect     : → [KnowledgeController.listDocuments] 请求开始
+2026-04-13T10:52:41.799+08:00  INFO 21128 --- [ai-knowledge-base] [http-nio-8080-exec-4] com.aiknowledge.config.LoggingAspect     : ← [KnowledgeController.listDocuments] 响应完成，耗时: 2ms
+2026-04-13T10:52:41.799+08:00  INFO 21128 --- [ai-knowledge-base] [http-nio-8080-exec-3] com.aiknowledge.config.LoggingAspect     : → [KnowledgeController.getStats] 请求开始
+2026-04-13T10:52:41.976+08:00  INFO 21128 --- [ai-knowledge-base] [http-nio-8080-exec-3] com.aiknowledge.config.LoggingAspect     : ← [KnowledgeController.getStats] 响应完成，耗时: 177ms
+2026-04-13T10:52:42.879+08:00  INFO 21128 --- [ai-knowledge-base] [http-nio-8080-exec-5] com.aiknowledge.config.LoggingAspect     : → [SystemController.health] 请求开始
+2026-04-13T10:52:42.880+08:00 DEBUG 21128 --- [ai-knowledge-base] [http-nio-8080-exec-5] com.aiknowledge.config.LoggingAspect     :   入参: [org.apache.catalina.connector.RequestFacade@3eb7d2ee]
+2026-04-13T10:52:42.904+08:00  INFO 21128 --- [ai-knowledge-base] [http-nio-8080-exec-5] com.aiknowledge.config.LoggingAspect     : ← [SystemController.health] 响应完成，耗时: 26ms
+2026-04-13T10:52:43.115+08:00  INFO 21128 --- [ai-knowledge-base] [http-nio-8080-exec-6] com.aiknowledge.config.LoggingAspect     : → [SystemController.apis] 请求开始
+2026-04-13T10:52:43.118+08:00  INFO 21128 --- [ai-knowledge-base] [http-nio-8080-exec-6] com.aiknowledge.config.LoggingAspect     : ← [SystemController.apis] 响应完成，耗时: 3ms
+2026-04-13T10:53:17.101+08:00  INFO 21128 --- [ai-knowledge-base] [http-nio-8080-exec-7] com.aiknowledge.config.LoggingAspect     : → [KnowledgeController.listDocuments] 请求开始
+2026-04-13T10:53:17.102+08:00  INFO 21128 --- [ai-knowledge-base] [http-nio-8080-exec-7] com.aiknowledge.config.LoggingAspect     : ← [KnowledgeController.listDocuments] 响应完成，耗时: 1ms
+2026-04-13T10:53:17.405+08:00  INFO 21128 --- [ai-knowledge-base] [http-nio-8080-exec-8] com.aiknowledge.config.LoggingAspect     : → [KnowledgeController.getStats] 请求开始
+2026-04-13T10:53:17.417+08:00  INFO 21128 --- [ai-knowledge-base] [http-nio-8080-exec-8] com.aiknowledge.config.LoggingAspect     : ← [KnowledgeController.getStats] 响应完成，耗时: 12ms
+2026-04-13T10:53:19.406+08:00  INFO 21128 --- [ai-knowledge-base] [http-nio-8080-exec-9] com.aiknowledge.config.LoggingAspect     : → [SystemController.health] 请求开始
+2026-04-13T10:53:19.406+08:00 DEBUG 21128 --- [ai-knowledge-base] [http-nio-8080-exec-9] com.aiknowledge.config.LoggingAspect     :   入参: [org.apache.catalina.connector.RequestFacade@42093648]
+2026-04-13T10:53:19.407+08:00  INFO 21128 --- [ai-knowledge-base] [http-nio-8080-exec-9] com.aiknowledge.config.LoggingAspect     : ← [SystemController.health] 响应完成，耗时: 1ms
+2026-04-13T10:53:19.408+08:00  INFO 21128 --- [ai-knowledge-base] [http-nio-8080-exec-10] com.aiknowledge.config.LoggingAspect     : → [SystemController.apis] 请求开始
+2026-04-13T10:53:19.408+08:00  INFO 21128 --- [ai-knowledge-base] [http-nio-8080-exec-10] com.aiknowledge.config.LoggingAspect     : ← [SystemController.apis] 响应完成，耗时: 0ms
